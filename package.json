@@ -1,0 +1,27 @@
+{
+	"name": "manalink-ehr",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon src/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/avikonduru/manalink-ehr.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/avikonduru/manalink-ehr/issues"
+	},
+	"homepage": "https://github.com/avikonduru/manalink-ehr#readme",
+	"dependencies": {
+		"aws-sdk": "^2.804.0",
+		"cors": "^2.8.5",
+		"dynamoose": "^2.4.1",
+		"express": "^4.17.1",
+		"nodemon": "^2.0.6",
+		"uuid": "^8.3.1"
+	}
+}
